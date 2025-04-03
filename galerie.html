@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de imagini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            color: #333;
+        }
+
+        .gallery-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .gallery-item {
+            border-radius: 8px;
+            padding: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            background-color: #87CEEB;
+            padding: 1px;
+        }
+
+        .gallery-item p {
+            margin: 4px 0 0;
+            font-size: 10px;
+            color: #333;
+        }
+
+        .gallery-description {
+            margin-top: 20px;
+            color: #030101;
+            font-size: 14px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        @media (max-width: 800px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 500px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="gallery-container">
+        <h2>Gallery Heading</h2>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 1">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 2">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 3">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 4">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 5">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 6">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 7">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 8">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 9">
+                <p>Image Title</p>
+            </div>
+            <div class="gallery-item">
+                <img src="placeholder-image.png" alt="Imagine 10">
+                <p>Image Title</p>
+            </div>
+        </div>
+
+        <p class="gallery-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur labore voluptates veritatis totam
+            deleniti veniam repellat facilis nulla assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatem veniam reprehenderit quis nemo saepe recusandae eveniet natus, voluptatibus, iure ipsam commodi
+            dolore sunt deleniti a ad eligendi velit eaque dolorem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    </div>
+
+</body>
+
+</html>
